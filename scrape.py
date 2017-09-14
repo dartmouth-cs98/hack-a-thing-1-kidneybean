@@ -1,6 +1,5 @@
 # Followed tutorial from https://medium.freecodecamp.org/how-to-scrape-websites-with-python-and-beautifulsoup-5946935d93fe
 
-
 # import libraries
 import urllib2
 from bs4 import BeautifulSoup
@@ -26,6 +25,3 @@ print name
 price_box = soup.find("div", attrs={"class":"price"})
 price = price_box.text
 print price
-
-
-

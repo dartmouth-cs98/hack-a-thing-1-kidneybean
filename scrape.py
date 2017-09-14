@@ -1,3 +1,6 @@
+# Followed tutorial from https://medium.freecodecamp.org/how-to-scrape-websites-with-python-and-beautifulsoup-5946935d93fe
+
+
 # import libraries
 import urllib2
 from bs4 import BeautifulSoup

@@ -5,7 +5,7 @@ import urllib2
 from bs4 import BeautifulSoup
 
 def main():
-    NUM_PAGES = 1000
+    NUM_PAGES = 10
     pages = []
 
     for i in range(0,NUM_PAGES):
